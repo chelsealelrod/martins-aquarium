@@ -1,23 +1,45 @@
 .header {
     display: flex;
-}
+    justify-content: center;
 
-.title {
-    display: flex;
-    margin: auto;
+
     
 
 }
 
+.logo {
+    justify-content: center;
+
+}
+
+
+
+.title {
+    display: inline-block;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+
 .fish {
     border: 3px dotted goldenrod;
-    padding: 4rem
+    padding: 4rem;
+    
 }
 
 .quotes {
     border: 3px dotted goldenrod;
+    padding: 2rem;
+    
 }
 
 .locations {
     border: 3px dotted goldenrod;
+    padding: 2rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 4rem;
 }
